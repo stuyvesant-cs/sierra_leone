@@ -11,3 +11,4 @@ This directory should contain the markdown files with all the class materials:
 - They should be made using the following command:
   - `pandoc MD_SOURCE -f gfm -o PDF_OUTPUT --pdf-engine=weasyprint --css=github-css.css`
 - This required `pandoc` and `weasyprint` are installed.
+- This conversion process is not ideal. As it stands the markdown->pdf package for the pulsar editor does a better job of converting. It is possible that just improving the css file will help, but not certain.
